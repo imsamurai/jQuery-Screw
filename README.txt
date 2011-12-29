@@ -1,7 +1,8 @@
 ﻿/* 
     Screw - A jQuery plugin
     ==================================================================
-    ©2010 - 2011 JasonLau.biz - Version 1.0.2
+    ©2010 - 2011 JasonLau.biz - Version 1.1.4
+    with viewportOffset by imsamurai <im.samuray@gmail.com>
     ==================================================================
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,6 +18,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
 */
+
+viewportOffset provide better behaviour for lazy imag loading
 
 ---------------------------------------------------------------------
 Options
@@ -57,6 +60,7 @@ Usage
 Call screw on the body selector and set up your HTML to utilize it.
 
 <script src="http://jasonlau.biz/javascript/jquery/latest/jquery-latest.js" type="text/javascript"></script> 
+<script src="jquery.ba-viewportoffset.js" type="text/javascript"></script>
 <script src="jquery.screw.js" type="text/javascript"></script>
 <script type="text/javascript">
 jQuery(function(){
