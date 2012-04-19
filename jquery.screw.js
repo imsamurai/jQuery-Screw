@@ -30,7 +30,8 @@
 
     		return this.each(function() {
               $(window).scroll(function() {
-                 screwIt($(this));
+                 if (detectTimer) window.clearTimeout(detectTimer);
+                 detectTimer = window.setTimeout(function() {screwIt(obj);}, 100);
               });
 
               var screwIt = function(it){
